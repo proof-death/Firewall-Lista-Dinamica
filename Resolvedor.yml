@@ -1,5 +1,5 @@
-- hosts: RESOLVEDOR
+- hosts: Firewall-Gov-List
   become: yes
   tasks:
    - name: Rodando Script
-     shell: docker exec ansible bash -c "/opt/ansible/playbooks/scripts/resolvedor.sh")
+     shell: (docker exec ansible bash -c "/opt/ansible/playbooks/scripts/resolvedor.sh")
