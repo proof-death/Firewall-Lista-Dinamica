@@ -2,4 +2,4 @@
   become: yes
   tasks:
    - name: Rodando Script
-     shell: docker exec ansible bash -c "playbooks/scripts/resolvedor.sh"
+     shell: docker exec ansible bash -c "cd playbooks/scripts ; ./resolvedor.sh"
