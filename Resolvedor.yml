@@ -1,0 +1,5 @@
+- hosts: RESOLVEDOR
+  become: yes
+  tasks:
+   - name: Rodando Script
+     shell: docker exec ansible bash -c "/opt/ansible/playbooks/scripts/resolvedor.sh")
